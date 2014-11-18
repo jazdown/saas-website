@@ -131,9 +131,117 @@ body {
 }
 
 .masthead {
-    background-color: #646265;
+    background-color: #504f51;
 }
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90rem;
+    position: relative;
+}
+
+.billboard h1 {
+    margin: 0;
+    padding: 5rem 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.billboard p {
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+.get-started {
+    padding: 10px;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+    color: #FFF;
+    background-color: #1f648e;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-intro h2 {
+    color: #AF0C0D;
+    font-family: sans-serif;
+}
+
+.main-intro p {
+    color: #504f51;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-footer li,
+.nav-footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    float: center;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active {
+	background-color: #AF0C0D;
+	color: #FFF;
+}
+
+.nav-footer > ul {
+	margin: 0;
+	padding: 0.8em 0;
+	list-style-type: none;
+    color: #FFF;
+}
+
+.nav-footer a,
+.nav-footer a:link,
+.nav-footer a:visited {
+	display: inline-block;
+	padding: 0.5em 10px;
+	color: #FFF;
+    text-decoration: none;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active {
+	background-color: #AF0C0D;
+	color: #FFF;
+}
+
+.top {
+    text-decoration: none;
+    color: #FFF;
+}
+    
 
 .copyright {
     color: #b0abaf;
+    text-align: center;
 }
