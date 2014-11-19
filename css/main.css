@@ -20,6 +20,27 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+    color: #504f51;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top:0;
 }
 
 .logo {
@@ -32,6 +53,7 @@ body {
 .masthead {
 	margin: 0;
 	overflow: hidden;
+    background-color: #1f648e;
 }
 
 .masthead-top {
@@ -89,8 +111,8 @@ body {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	background-color: #AF0C0D;
-	color: #FFF;
+	background-color: #b0abaf;
+	color: #282627;
 }
 
 .nav-bottom {
@@ -110,30 +132,6 @@ body {
 	max-height: 14em;
 }
 
-.skip-links {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.skip-links a {
-    position: absolute;
-    top: -3em;
-    padding: 0.5em 0.75em;
-    background-color: #000;
-    color: #FFF;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.skip-links a:focus {
-    top:0;
-}
-
-.masthead {
-    background-color: #504f51;
-}
-
 .billboard {
     overflow: hidden;
     background-image: url(../images/forest.jpg);
@@ -147,7 +145,7 @@ body {
     margin: 0;
     padding: 5rem 0;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     font-family: sans-serif;
     font-weight: normal;
 }
@@ -159,41 +157,60 @@ body {
     font-family: sans-serif;
 }
 
+.billboard span {
+    display: block;
+}
+
 .get-started {
-    padding: 10px;
     font-size: 1rem;
-    position: absolute;
-    bottom: 20px;
-    right: 10%;
+    left: 40px;
     color: #FFF;
     background-color: #1f648e;
+    text-decoration: none;
     border: none;
     border-radius: 5px;
+    display: inline-block;
+    margin-left: 0.3em;
+    padding: 0 10px;
 }
 
 .main-intro h2 {
-    color: #AF0C0D;
+    color: #282627;
     font-family: sans-serif;
 }
 
-.main-intro p {
-    color: #504f51;
+blockquote p {
+    font-size: .875rem;
+    margin: 0;
+    padding: 0;
 }
 
+blockquote p:before {
+    content: "“";
+    font-size: 1.25rem;
+    line-height: 5px;
+    color: #AF0C0D;
+    float: left;
+    margin-top: 0.3em;
+}
 
+blockquote p:after {
+    content: "”";
+    font-size: 1.25rem;
+    line-height: 1px;
+    color: #AF0C0D;
+}
 
+blockquote cite {
+    font-style: oblique;
+    float: right;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.snapshot,
+.snapshot img {
+    width: 100%;
+    border: 2px;
+}
 
 
 .nav-footer li,
