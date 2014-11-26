@@ -46,9 +46,11 @@ body {
 .logo {
     margin: 0;
     padding: 0;
-    width: 8em;
-    float: left;
     bottom: 0;
+}
+
+.logo img {
+    max-width: 200px;
 }
 
 .masthead {
@@ -93,8 +95,6 @@ body {
 .masthead {
     background-color: #940606;
 }
-
-
 
 .billboard {
     background-image: url(../images/forest.jpg);
@@ -170,10 +170,12 @@ blockquote cite {
     float: right;
 }
 
-.snapshot,
+.snapshot {
+    display: inline-block;
+}
+
 .snapshot img {
     width: 100%;
-    border: 2px;
 }
 
 .top {
@@ -186,24 +188,49 @@ blockquote cite {
     text-align: center;
 }
 
+.nav-footer {
+    padding: 10px;
+}
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
+        display: block;
+    }
+    
+    .nav-footer li {
         display: inline-block;
     }
 }
     
 @media only screen and (min-width: 38em) {
     
-    .nav li {
-        display: inline-block;
+    .nav {
         float: right;
     }
+    
+    .nav li {
+        display: inline-block;
+    }
+    
+    .intro-para {
+        -moz-columns: 2;
+        -webkit-columns: 2;
+        -o-columns: 2;
+        columns: 2;
+        column-gap: 10px;
+    }
+    
 }
 
 @media only screen and (min-width: 60em) {
 
-    .nav li {
-        float: right;
+    .intro-para {
+        -moz-columns: 3;
+        -webkit-columns: 3;
+        -o-columns: 3;
+        columns: 3;
+        column-gap: 10px;
     }
+    
 }
