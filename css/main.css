@@ -153,7 +153,7 @@ blockquote p:before {
     content: "“";
     font-size: 1.25rem;
     line-height: 5px;
-    color: #AF0C0D;
+    color: #940606;
     float: left;
     margin-top: 0.3em;
 }
@@ -162,7 +162,7 @@ blockquote p:after {
     content: "”";
     font-size: 1.25rem;
     line-height: 1px;
-    color: #AF0C0D;
+    color: #940606;
 }
 
 blockquote cite {
@@ -192,6 +192,97 @@ blockquote cite {
     padding: 10px;
 }
 
+.package {
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    background-color: #504f51;
+    padding-top: 15px;
+}
+
+.package img {
+    width: 100%;
+    border: solid 4px #000;
+    border-radius: 10px;
+}
+
+.package-caption {
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+#paid {
+    display: none;
+}
+
+#paid:target {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.sign-up-h2 {
+    text-align: center;
+}
+
+.join-form {
+    font-family: 'Syncopate', sans-serif;
+    background-color: #303030;
+    color: #FFF;
+}
+
+.interest-join {
+    text-align: center;
+    font-family: 'Enriqueta', serif;
+    color: #FFF;
+}
+
+.sign-up-below {
+    color: #9CF;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+}
+
+.sign-up-button {
+    text-align: center;
+}
+
+button {
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: #FFF;
+    background-color: #940606;
+    border: solid 2px #FFF;
+    border-radius: 8px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+input {
+    font-size: 1.5em;
+    border-radius: 8px;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.cardinfo {
+    display: inline-block;
+}
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
@@ -201,6 +292,11 @@ blockquote cite {
     .nav-footer li {
         display: inline-block;
     }
+    
+    .card-pad {
+        padding-right: 10px;
+    }
+    
 }
     
 @media only screen and (min-width: 38em) {
@@ -225,12 +321,8 @@ blockquote cite {
 
 @media only screen and (min-width: 60em) {
 
-    .intro-para {
-        -moz-columns: 3;
-        -webkit-columns: 3;
-        -o-columns: 3;
-        columns: 3;
-        column-gap: 10px;
+    .card-number-pad {
+        padding-right: 10px;
     }
     
 }
