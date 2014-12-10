@@ -114,7 +114,7 @@ body {
     font-weight: bold;
 }
 
-thanks-billboard {
+.thanks-billboard {
     text-align: center;
 }
 
@@ -130,7 +130,6 @@ thanks-billboard {
 }
 
 .get-started {
-    font-size: 1rem;
     left: 40px;
     color: #FFF;
     background-color: #940606;
@@ -138,8 +137,8 @@ thanks-billboard {
     border: none;
     border-radius: 5px;
     display: inline-block;
-    margin-left: 0.3em;
-    padding: 0 10px;
+    margin-left: 0.5em;
+    padding: 8px;
 }
 
 .h2-style {
@@ -232,9 +231,14 @@ input + label {
     text-align: center;
 }
 
-.join-form {
+.form-wrapper {
     background-color: #303030;
+}
+
+.join-form {
     color: #FFF;
+    max-width: 40em;
+    margin: 0 auto;
 }
 
 .interest-join {
@@ -322,5 +326,5 @@ input {
     .card-number-pad {
         padding-right: 10px;
     }
-    
+
 }
