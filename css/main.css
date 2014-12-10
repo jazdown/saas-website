@@ -21,6 +21,7 @@ body {
 	margin: 0;
 	padding: 0;
     color: #504f51;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .skip-links {
@@ -89,7 +90,8 @@ body {
     text-decoration: none;
     display: block;
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .masthead {
@@ -109,8 +111,11 @@ body {
     padding: 5rem 2%;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
-    font-family: sans-serif;
-    font-weight: normal;
+    font-weight: bold;
+}
+
+thanks-billboard {
+    text-align: center;
 }
 
 .billboard p {
@@ -118,7 +123,6 @@ body {
     padding: 2%;
     bottom: 0;
     color: #FFF;
-    font-family: sans-serif;
 }
 
 .billboard span {
@@ -140,7 +144,7 @@ body {
 
 .h2-style {
     color: #282627;
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 blockquote p {
@@ -202,13 +206,10 @@ blockquote cite {
 
 .package img {
     width: 100%;
-    border: solid 4px #000;
-    border-radius: 10px;
 }
 
 .package-caption {
     color: #FFF;
-    font-family: sans-serif;
 }
 
 #paid {
@@ -232,14 +233,12 @@ input + label {
 }
 
 .join-form {
-    font-family: 'Syncopate', sans-serif;
     background-color: #303030;
     color: #FFF;
 }
 
 .interest-join {
     text-align: center;
-    font-family: 'Enriqueta', serif;
     color: #FFF;
 }
 
@@ -267,7 +266,6 @@ button {
     background-color: #940606;
     border: solid 2px #FFF;
     border-radius: 8px;
-    font-family: 'Syncopate', sans-serif;
 }
 
 input {
